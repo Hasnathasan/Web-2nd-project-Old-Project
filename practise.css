@@ -1,131 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-image: linear-gradient(to right,rgb(80, 32, 211),rgb(8, 70, 151));
-    
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(80, 32, 211),
+    rgb(8, 70, 151)
+  );
 }
-
-
 
 @media only screen and (max-width: 600px) {
-    /* For mobile: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
+  /* For mobile: */
+  .col-s-1 {
+    width: 8.33%;
   }
-
-
-
-.menu-bar{
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
     width: 100%;
-    position: relative;
-    background-color: rgba(207, 213, 218, 0.144);
-    backdrop-filter: blur(1px);
-}
-.menu-bar i{
-    color: aliceblue;
-    padding: 15px;
-    
-}
-.menu-bar .fa-solid:hover .menu-container{
-    visibility: visible;
-    
-}
-.menu-container{
-    position: absolute;
-    left: 10%;
-    top: 5px;
-    /* visibility: hidden; */
-    width: 90%;
-    
-    
-    
-}
-.menu-container .menu-content{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    
-}
-.menu-container .menu-content a{
-    font-size: 15px;
-    text-decoration: none;
-    color: rgb(198, 207, 214);
-    font-weight: bolder;
-    letter-spacing: 1.5px;
-    word-spacing: 3px;
-    padding: 10px;
-    border-radius: 3px;
-}
-.menu-container .menu-content a:hover{
-    background: linear-gradient(to right,rgb(80, 32, 211),rgb(8, 70, 151));
+  }
 }
 
-
-
-
-
-
-
-
-
-.body-section{
-    height: 500px;
+.menu-bar {
+  width: 100%;
+  position: relative;
+  background-color: rgba(207, 213, 218, 0.144);
+  backdrop-filter: blur(1px);
 }
-.body-p1{
-    width: 50%;
-    
-    height: 500px;
-    float: left;
+.menu-bar i {
+  color: aliceblue;
+  padding: 15px;
 }
-.body-pic img{
-    width: 55%;
-    margin: 50px;
-    margin-left: 40%;
+.menu-bar .fa-solid:hover .menu-container {
+  visibility: visible;
 }
-.body-p2{
-    width: 50%;
-    float: left;
+.menu-container {
+  position: absolute;
+  left: 10%;
+  top: 5px;
+  /* visibility: hidden; */
+  width: 90%;
 }
-.body-h1{
-    margin: 150px 0px 0px 100px;
+.menu-container .menu-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
 }
-.body-h1 h1{
-    font-family: 'Anton', sans-serif;
-    color: rgb(198, 207, 214);
-    letter-spacing: 2px;
+.menu-container .menu-content a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(198, 207, 214);
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+  padding: 10px;
+  border-radius: 3px;
 }
-.body-p{
-    margin: 20px 100px 0px 100px;
-    font-family: 'Montserrat', sans-serif;
-}
-.body-p p{
-    color: rgb(198, 207, 214);
+.menu-container .menu-content a:hover {
+  background: linear-gradient(to right, rgb(80, 32, 211), rgb(8, 70, 151));
 }
 
+.body-section {
+  height: 500px;
+}
+.body-p1 {
+  width: 50%;
 
-
-
-
-
-
-
-
-
-
-
-
+  height: 500px;
+  float: left;
+}
+.body-pic img {
+  width: 55%;
+  margin: 50px;
+  margin-left: 40%;
+}
+.body-p2 {
+  width: 50%;
+  float: left;
+}
+.body-h1 {
+  margin: 150px 0px 0px 100px;
+}
+.body-h1 h1 {
+  font-family: "Anton", sans-serif;
+  color: rgb(198, 207, 214);
+  letter-spacing: 2px;
+}
+.body-p {
+  margin: 20px 100px 0px 100px;
+  font-family: "Montserrat", sans-serif;
+}
+.body-p p {
+  color: rgb(198, 207, 214);
+}
